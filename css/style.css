@@ -1,0 +1,48 @@
+
+
+* {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+* {
+    background-color: rgb(196, 218, 175);
+}
+
+header nav ul {
+    display:inline-block;
+    text-decoration:none;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration:none ;
+    
+}
+
+header nav ul li {
+    color: rgb(24, 43, 6);
+    
+}
+
+body{
+    padding:20 px;
+}
+
+h1 {
+
+    color: rgb(7, 82, 57);
+    background-color: rgb(84, 161, 135);
+}
+
+body p {
+    
+    color: black;
+
+
+}
+
+
+
+
+
