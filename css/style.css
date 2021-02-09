@@ -6,7 +6,7 @@
 
 }
 * {
-    background-color: rgb(196, 218, 175);
+    background-color: rgb(209, 137, 191);
 }
 
 header nav ul {
@@ -21,23 +21,23 @@ header nav ul li a {
 }
 
 header nav ul li {
-    color: rgb(24, 43, 6);
+    color: rgb(87, 4, 59);
     
 }
 
 body{
-    padding:20 px;
+    padding:100 px;
 }
 
 h1 {
 
-    color: rgb(7, 82, 57);
-    background-color: rgb(84, 161, 135);
+    color: rgb(141, 10, 91);
+    background-color: rgb(231, 108, 170);
 }
 
 body p {
     
-    color: black;
+    color: rgb(54, 6, 40);
 
 
 }
