@@ -6,7 +6,7 @@
 
 }
 * {
-    background-color: rgb(209, 137, 191);
+    background-color: rgb(219, 161, 205);
 }
 
 header nav ul {
@@ -42,6 +42,13 @@ body p {
 
 }
 
+a {
+    text-decoration: none;
+    color: rgb(51, 3, 37);
+    border: 2 px solid purple;
+    background-color: rosybrown;
+    border-radius: 40px;
+}
 
 
 
