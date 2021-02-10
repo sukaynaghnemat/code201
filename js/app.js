@@ -11,8 +11,7 @@ userInfo ();
 
 alert ('please answer the following questions');
 let w = 0;
-function yesNoQ ( f1, f2,f3,f4,f5)
-{
+function q1 (f1){
  f1 =prompt('Do you think i like football?');
 
 if (f1.toLocaleLowerCase() === "yes"|| f1.toLocaleLowerCase() === "y" )
@@ -29,7 +28,9 @@ else {
     //console.log("it is rong");
 
 }
-
+}
+q1();
+ function q2(f2) {
  f2 =prompt("Do you think i love real madrid ?");
 
 if (f2.toLocaleLowerCase() === "yes"|| f2.toLocaleLowerCase() === "y" )
@@ -43,6 +44,9 @@ else{
     alert("no it is rong");
     //console.log("it is rong");
 }
+ }
+ q2();
+ function q3(f3){
 
 f3 =prompt('Do you think i watch football match?');
 
@@ -60,6 +64,9 @@ else {
 
 
 }
+ }
+ q3();
+ function q4 (f4){
 
  f4 =prompt('Do you think i play football?');
 
@@ -76,6 +83,10 @@ else{
     alert("no it is rong");
     //console.log("it is rong");
 }
+ }
+ q4 ();
+
+ function q5 (f5){
 
  f5 =prompt('Do you think i visit santiago bernabeu?');
 
@@ -90,8 +101,8 @@ else{
     alert("no it is rong");
     //console.log("it is rong");
 }
-}
-yesNoQ();
+ }
+q5();
 
 function guessNum (prompt6){
 let myAge = 34;
@@ -158,7 +169,7 @@ function totalGrade( w )
 
 }
 totalGrade(w);
-alert( ' your total grade is'+ grade +'%');
+alert( ' your total grade is '+ grade +'%');
 
 
 
