@@ -1,18 +1,15 @@
 
 
-* {
-    font-size: large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-}
 * {
-    background-color: rgb(219, 161, 205);
+    background-color: thistle;
 }
 
 header nav ul {
     display:inline-block;
     text-decoration:none;
     list-style-type: none;
+    
 }
 
 header nav ul li a {
@@ -20,34 +17,53 @@ header nav ul li a {
     
 }
 
-header nav ul li {
+ li {
     color: rgb(87, 4, 59);
+    
+    font-style: italic;
+    
     
 }
 
+
+
 body{
     padding:100 px;
+    margin: 20px;
 }
 
-h1 {
+h1,h2 {
 
     color: rgb(141, 10, 91);
-    background-color: rgb(231, 108, 170);
+    background-color: rgb(226, 208, 217);
 }
+
 
 body p {
     
     color: rgb(54, 6, 40);
-
-
+    font-style: italic;
+    
 }
+
+
+
 
 a {
     text-decoration: none;
     color: rgb(51, 3, 37);
     border: 2 px solid purple;
-    background-color: rosybrown;
-    border-radius: 40px;
+    padding: 5px;
+    display: inline-block;
+    
+    
+}
+div {
+    width: 500px;
+    height: 500;
+    position: absolute;
+    display: inline;
+
 }
 
 
