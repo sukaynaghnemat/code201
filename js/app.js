@@ -12,7 +12,7 @@ userInfo ();
 alert ('please answer the following questions');
 let w = 0;
 function q1 (f1){
- f1 =prompt('Do you think i like football?');
+ f1 =prompt('Do you think I like football?');
 
 if (f1.toLocaleLowerCase() === "yes"|| f1.toLocaleLowerCase() === "y" )
 {
@@ -24,14 +24,14 @@ if (f1.toLocaleLowerCase() === "yes"|| f1.toLocaleLowerCase() === "y" )
 
 
 else {
-    alert("no it is rong");
+    alert("No, it is rong");
     //console.log("it is rong");
 
 }
 }
 q1();
  function q2(f2) {
- f2 =prompt("Do you think i love real madrid ?");
+ f2 =prompt("Do you think I love real madrid ?");
 
 if (f2.toLocaleLowerCase() === "yes"|| f2.toLocaleLowerCase() === "y" )
 {
@@ -41,14 +41,14 @@ if (f2.toLocaleLowerCase() === "yes"|| f2.toLocaleLowerCase() === "y" )
     
 }
 else{
-    alert("no it is rong");
+    alert("No it is rong");
     //console.log("it is rong");
 }
  }
  q2();
  function q3(f3){
 
-f3 =prompt('Do you think i watch football match?');
+f3 =prompt('Do you think I watch football match?');
 
 if (f3.toLocaleLowerCase() === "yes"|| f3.toLocaleLowerCase() === "y" )
 {
@@ -59,7 +59,7 @@ if (f3.toLocaleLowerCase() === "yes"|| f3.toLocaleLowerCase() === "y" )
     
 }
 else {
-    alert("no it is rong");
+    alert("No it is rong");
     //console.log("it is rong");
 
 
@@ -68,7 +68,7 @@ else {
  q3();
  function q4 (f4){
 
- f4 =prompt('Do you think i play football?');
+ f4 =prompt('Do you think I play football?');
 
 
 if (f4.toLocaleLowerCase() === "no"|| f4.toLocaleLowerCase() === "n" )
@@ -88,7 +88,7 @@ else{
 
  function q5 (f5){
 
- f5 =prompt('Do you think i visit santiago bernabeu?');
+ f5 =prompt('Do you think I visit santiago bernabeu?');
 
 if (f5.toLocaleLowerCase() === "no"|| f5.toLocaleLowerCase() === "n" )
 {
@@ -98,7 +98,7 @@ if (f5.toLocaleLowerCase() === "no"|| f5.toLocaleLowerCase() === "n" )
     
 }
 else{
-    alert("no it is rong");
+    alert("No it is rong");
     //console.log("it is rong");
 }
  }
